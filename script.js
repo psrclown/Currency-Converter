@@ -53,6 +53,7 @@ btn.addEventListener("click", async (evt) => {
 
     let result = document.querySelector(".msg");
     result.innerText = `${amtval} ${fromcurr.value} = ${convertedAmount} ${tocurr.value}`;
+    result.classList.remove("hide");
   } catch (error) {
     console.error("Error fetching conversion rate:", error);
   }

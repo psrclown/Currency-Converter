@@ -76,3 +76,7 @@ form button{
     text-transform: uppercase;
     cursor: pointer;
 }
+
+.hide{
+    display: none;
+}
